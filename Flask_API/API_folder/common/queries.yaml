@@ -1,0 +1,18 @@
+queries:
+  order_headers: |
+    SELECT * FROM order_headers;
+
+  order_lines: |
+    SELECT * FROM order_lines;
+
+  invoice_headers: |
+    SELECT * FROM invoice_headers;
+
+  invoice_lines: |
+    SELECT * FROM invoice_lines;
+
+  customer_headers: |
+    SELECT * FROM customer_headers;
+  
+  customer_lines: |
+    SELECT * FROM customer_lines
