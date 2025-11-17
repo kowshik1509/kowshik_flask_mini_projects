@@ -72,3 +72,84 @@
 5     10007 2025-10-12 10:20:00 2025-10-22 10:20:00   Electronic          Smart Watch
 25-11-17 14:06:03 [INFO] root - Data is successfully inserted into target database :order_headers
 25-11-17 14:06:03 [INFO] werkzeug - 127.0.0.1 - - [17/Nov/2025 14:06:03] "POST /api/psg_to_sql HTTP/1.1" 200 -
+25-11-17 14:49:27 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-17 14:49:27 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-17 14:49:27 [INFO] werkzeug -  * Restarting with stat
+25-11-17 14:49:28 [WARNING] werkzeug -  * Debugger is active!
+25-11-17 14:49:28 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-17 14:49:33 [DEBUG] MyApp - Connected to DEV database.
+25-11-17 14:49:33 [INFO] root - <connection object at 0x000002AC67358BF0; dsn: 'user=postgres password=xxx dbname=Dev_db host=localhost port=5432', closed: 0>
+25-11-17 14:49:33 [DEBUG] MyApp - Connected to SQL database.
+25-11-17 14:49:33 [INFO] root - <pymysql.connections.Connection object at 0x000002AC67449B40>
+25-11-17 14:49:33 [INFO] root -    order_id          order_time order_delivery_date   order_type    order_description
+0     10001 2025-10-01 10:00:00 2025-10-05 15:00:00  Electronics     Smartphone order
+1     10002 2025-10-02 09:00:00 2025-10-06 13:00:00    Furniture           Sofa order
+2     10003 2025-10-03 11:30:00 2025-10-07 14:30:00      Grocery  Weekly grocery pack
+3     10004 2025-10-04 12:15:00 2025-10-08 16:00:00    Appliance      Washing machine
+4     10005 2025-10-05 14:00:00 2025-10-09 17:30:00     Clothing       Winter jackets
+5     10007 2025-10-12 10:20:00 2025-10-22 10:20:00   Electronic          Smart Watch
+25-11-17 14:49:33 [INFO] root - Data is successfully inserted into target database :order_headers
+25-11-17 14:49:33 [INFO] werkzeug - 127.0.0.1 - - [17/Nov/2025 14:49:33] "POST /api/psg_to_sql HTTP/1.1" 200 -
+25-11-17 14:51:07 [DEBUG] MyApp - Error while connecting to None database: 'NoneType' object has no attribute 'upper'
+25-11-17 14:51:07 [INFO] root - None
+25-11-17 14:51:07 [DEBUG] MyApp - Error while connecting to None database: 'NoneType' object has no attribute 'upper'
+25-11-17 14:51:07 [INFO] root - None
+25-11-17 14:51:07 [INFO] werkzeug - 127.0.0.1 - - [17/Nov/2025 14:51:07] "[35m[1mPOST /api/psg_to_sql HTTP/1.1[0m" 500 -
+25-11-17 14:51:56 [DEBUG] MyApp - Error while connecting to None database: 'NoneType' object has no attribute 'upper'
+25-11-17 14:51:56 [INFO] root - None
+25-11-17 14:51:56 [DEBUG] MyApp - Error while connecting to None database: 'NoneType' object has no attribute 'upper'
+25-11-17 14:51:56 [INFO] root - None
+25-11-17 14:51:56 [INFO] werkzeug - 127.0.0.1 - - [17/Nov/2025 14:51:56] "[35m[1mPOST /api/psg_to_sql HTTP/1.1[0m" 500 -
+25-11-17 14:53:51 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-17 14:53:51 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-17 14:53:51 [INFO] werkzeug -  * Restarting with stat
+25-11-17 14:53:52 [WARNING] werkzeug -  * Debugger is active!
+25-11-17 14:53:52 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-17 14:54:14 [DEBUG] MyApp - Connected to SQL database.
+25-11-17 14:54:14 [INFO] root - <pymysql.connections.Connection object at 0x000002C50C599A50>
+25-11-17 14:54:14 [DEBUG] MyApp - Connected to DEV database.
+25-11-17 14:54:14 [INFO] root - <connection object at 0x000002C50C4A8BF0; dsn: 'user=postgres password=xxx dbname=Dev_db host=localhost port=5432', closed: 0>
+25-11-17 14:54:14 [INFO] werkzeug - 127.0.0.1 - - [17/Nov/2025 14:54:14] "POST /api/datacomparision HTTP/1.1" 200 -
+25-11-17 14:57:49 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-17 14:57:49 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-17 14:57:49 [INFO] werkzeug -  * Restarting with stat
+25-11-17 14:57:50 [WARNING] werkzeug -  * Debugger is active!
+25-11-17 14:57:50 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-17 14:57:53 [DEBUG] MyApp - Connected to DEV database.
+25-11-17 14:57:53 [INFO] root - <connection object at 0x00000220F0CA8BF0; dsn: 'user=postgres password=xxx dbname=Dev_db host=localhost port=5432', closed: 0>
+25-11-17 14:57:53 [DEBUG] MyApp - Connected to SQL database.
+25-11-17 14:57:53 [INFO] root - <pymysql.connections.Connection object at 0x00000220F0D99BA0>
+25-11-17 14:57:53 [INFO] root -    order_id          order_time order_delivery_date   order_type    order_description
+0     10001 2025-10-01 10:00:00 2025-10-05 15:00:00  Electronics     Smartphone order
+1     10002 2025-10-02 09:00:00 2025-10-06 13:00:00    Furniture           Sofa order
+2     10003 2025-10-03 11:30:00 2025-10-07 14:30:00      Grocery  Weekly grocery pack
+3     10004 2025-10-04 12:15:00 2025-10-08 16:00:00    Appliance      Washing machine
+4     10005 2025-10-05 14:00:00 2025-10-09 17:30:00     Clothing       Winter jackets
+5     10007 2025-10-12 10:20:00 2025-10-22 10:20:00   Electronic          Smart Watch
+25-11-17 14:57:53 [INFO] werkzeug - 127.0.0.1 - - [17/Nov/2025 14:57:53] "[35m[1mPOST /api/psg_to_sql HTTP/1.1[0m" 500 -
+25-11-17 14:58:20 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-17 14:58:20 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-17 14:58:20 [INFO] werkzeug -  * Restarting with stat
+25-11-17 14:58:21 [WARNING] werkzeug -  * Debugger is active!
+25-11-17 14:58:21 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-17 14:58:24 [DEBUG] MyApp - Connected to DEV database.
+25-11-17 14:58:24 [INFO] root - <connection object at 0x00000155F8318BF0; dsn: 'user=postgres password=xxx dbname=Dev_db host=localhost port=5432', closed: 0>
+25-11-17 14:58:24 [DEBUG] MyApp - Connected to SQL database.
+25-11-17 14:58:24 [INFO] root - <pymysql.connections.Connection object at 0x00000155F8409B40>
+25-11-17 14:58:24 [INFO] root -    line_id  customer_id  order_id  amount order_delivery_date   order_type order_description
+0        1          101     10001     500 2025-10-05 15:00:00  Electronics        Smartphone
+1        2          102     10002    1200 2025-10-06 13:00:00    Furniture              Sofa
+2        3          103     10003     250 2025-10-07 14:30:00      Grocery     Grocery items
+3        4          104     10004     800 2025-10-08 16:00:00    Appliance   Washing machine
+4        5          105     10005     350 2025-10-09 17:30:00     Clothing    Winter jackets
+25-11-17 14:58:24 [INFO] root - Data is successfully inserted into target database :order_lines
+25-11-17 14:58:24 [INFO] werkzeug - 127.0.0.1 - - [17/Nov/2025 14:58:24] "POST /api/psg_to_sql HTTP/1.1" 200 -
+25-11-17 14:58:36 [DEBUG] MyApp - Connected to SQL database.
+25-11-17 14:58:36 [INFO] root - <pymysql.connections.Connection object at 0x00000155F840B2E0>
+25-11-17 14:58:36 [DEBUG] MyApp - Connected to DEV database.
+25-11-17 14:58:36 [INFO] root - <connection object at 0x00000155F8318BF0; dsn: 'user=postgres password=xxx dbname=Dev_db host=localhost port=5432', closed: 0>
+25-11-17 14:58:36 [INFO] werkzeug - 127.0.0.1 - - [17/Nov/2025 14:58:36] "POST /api/datacomparision HTTP/1.1" 200 -

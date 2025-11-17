@@ -4,9 +4,10 @@ from flask import request
 
 import pandas as pd
 import numpy as np
+from flask import jsonify
 import logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s", datefmt='%Y-%m-%d %H:%M:%S')
-from common.config import  get_connection, sql_get_connection
+from common.config import  get_connection, sql_get_connection, close_db
 
 
 class psgr_to_sql(Resource):
@@ -45,9 +46,50 @@ class psgr_to_sql(Resource):
                 cursor.execute(insert_sql, tuple(row.values))
 
             to_conn.commit()
-
+            close_db(to_conn,cursor)
+            close_db(from_conn, None)
             logging.info(f"Data is successfully inserted into target database :{table}")
         return {"status": "success"}
+
+
+class datacomp(Resource):
+    def post(self):
+        data = request.get_json()
+        PRI_DB = data.get("PRIMARY_DB")
+        SE_DB = data.get("SECONDARY_DB")
+        tables = data.get("TABLES")
+    
+        if PRI_DB == "SQL":
+            pri_conn =sql_get_connection(PRI_DB)
+            logging.info(pri_conn)
+        else :
+            pri_conn = get_connection(PRI_DB)
+            logging.info(pri_conn)
+        if SE_DB == "SQL":
+            se_conn = sql_get_connection(SE_DB)
+            logging.info(se_conn)
+        else:
+            se_conn = get_connection(SE_DB)
+            logging.info(se_conn)
+        status = []
+        for table in tables:
+            query = f"SELECT * FROM {table};"
+
+            pri_df = pd.read_sql(query, pri_conn)
+            se_df = pd.read_sql(query, se_conn)
+
+            output = pri_df.equals(se_df)  
+            status.append({
+                "table": table,
+                "match": output
+            })
+        close_db(pri_conn)
+        close_db(se_conn)
+        return jsonify(status)
+            
+        
+
+
 
 
             

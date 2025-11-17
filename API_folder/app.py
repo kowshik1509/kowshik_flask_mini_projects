@@ -1,7 +1,7 @@
 from flask import Flask, request
 from flask_restful import Api, Resource
 from resource.data_operations import datafetch, tabledata, datacreate, dataread, login, json_to_df,fromdb_todb, call_method, session, logout
-from resource.Psg_to_sql import psgr_to_sql
+from resource.Psg_to_sql import psgr_to_sql, datacomp
 app = Flask(__name__)
 api = Api(app)
 
@@ -17,7 +17,7 @@ api.add_resource(call_method,'/api/callmethod')
 api.add_resource(login,'/api/login')
 api.add_resource(logout,'/api/logout')
 api.add_resource(psgr_to_sql,'/api/psg_to_sql')
-
+api.add_resource(datacomp,'/api/datacomparision')
 
 if __name__ == "__main__":
     app.run(debug=True, port=1509)

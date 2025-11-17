@@ -122,3 +122,17 @@ def sql_get_connection(db_name):
         except Exception as e:
             logger.debug(f"Error while connecting to {db_name} database: {e}")
             return None
+        
+
+def close_db(conn, cursor = None):
+    try:
+        if cursor:
+            cursor.close()
+    except Exception as e:
+        print(f"Error closing cursor: {e}")
+
+    try:
+        if conn:
+            conn.close()
+    except Exception as e:
+        print(f"Error closing connection: {e}")
