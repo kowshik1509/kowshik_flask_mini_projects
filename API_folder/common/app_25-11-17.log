@@ -1,0 +1,74 @@
+25-11-17 13:55:57 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-17 13:55:57 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-17 13:55:57 [INFO] werkzeug -  * Restarting with stat
+25-11-17 13:55:58 [WARNING] werkzeug -  * Debugger is active!
+25-11-17 13:55:58 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-17 13:57:21 [DEBUG] MyApp - Connected to DEV database.
+25-11-17 13:57:21 [INFO] root - <connection object at 0x0000021CA62E7CD0; dsn: 'user=postgres password=xxx dbname=Dev_db host=localhost port=5432', closed: 0>
+25-11-17 13:57:21 [DEBUG] MyApp - Error while connecting to SQL database: connection to server at "localhost" (::1), port 3306 failed: received invalid response to SSL negotiation: J
+
+25-11-17 13:57:21 [INFO] root - None
+25-11-17 13:57:21 [INFO] root -    order_id          order_time order_delivery_date   order_type    order_description
+0     10001 2025-10-01 10:00:00 2025-10-05 15:00:00  Electronics     Smartphone order
+1     10002 2025-10-02 09:00:00 2025-10-06 13:00:00    Furniture           Sofa order
+2     10003 2025-10-03 11:30:00 2025-10-07 14:30:00      Grocery  Weekly grocery pack
+3     10004 2025-10-04 12:15:00 2025-10-08 16:00:00    Appliance      Washing machine
+4     10005 2025-10-05 14:00:00 2025-10-09 17:30:00     Clothing       Winter jackets
+5     10007 2025-10-12 10:20:00 2025-10-22 10:20:00   Electronic          Smart Watch
+25-11-17 13:57:21 [INFO] werkzeug - 127.0.0.1 - - [17/Nov/2025 13:57:21] "[35m[1mPOST /api/psg_to_sql HTTP/1.1[0m" 500 -
+25-11-17 14:01:52 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-17 14:01:52 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-17 14:01:52 [INFO] werkzeug -  * Restarting with stat
+25-11-17 14:01:53 [WARNING] werkzeug -  * Debugger is active!
+25-11-17 14:01:53 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-17 14:01:55 [DEBUG] MyApp - Connected to DEV database.
+25-11-17 14:01:55 [INFO] root - <connection object at 0x0000019BAFA189D0; dsn: 'user=postgres password=xxx dbname=Dev_db host=localhost port=5432', closed: 0>
+25-11-17 14:01:55 [DEBUG] MyApp - Error while connecting to SQL database: port should be of type int
+25-11-17 14:01:55 [INFO] root - None
+25-11-17 14:01:55 [INFO] root -    order_id          order_time order_delivery_date   order_type    order_description
+0     10001 2025-10-01 10:00:00 2025-10-05 15:00:00  Electronics     Smartphone order
+1     10002 2025-10-02 09:00:00 2025-10-06 13:00:00    Furniture           Sofa order
+2     10003 2025-10-03 11:30:00 2025-10-07 14:30:00      Grocery  Weekly grocery pack
+3     10004 2025-10-04 12:15:00 2025-10-08 16:00:00    Appliance      Washing machine
+4     10005 2025-10-05 14:00:00 2025-10-09 17:30:00     Clothing       Winter jackets
+5     10007 2025-10-12 10:20:00 2025-10-22 10:20:00   Electronic          Smart Watch
+25-11-17 14:01:56 [INFO] werkzeug - 127.0.0.1 - - [17/Nov/2025 14:01:56] "[35m[1mPOST /api/psg_to_sql HTTP/1.1[0m" 500 -
+25-11-17 14:04:08 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-17 14:04:08 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-17 14:04:08 [INFO] werkzeug -  * Restarting with stat
+25-11-17 14:04:09 [WARNING] werkzeug -  * Debugger is active!
+25-11-17 14:04:09 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-17 14:04:12 [DEBUG] MyApp - Connected to DEV database.
+25-11-17 14:04:12 [INFO] root - <connection object at 0x000001F5B25A89D0; dsn: 'user=postgres password=xxx dbname=Dev_db host=localhost port=5432', closed: 0>
+25-11-17 14:04:12 [DEBUG] MyApp - Connected to SQL database.
+25-11-17 14:04:12 [INFO] root - <pymysql.connections.Connection object at 0x000001F5B26A1630>
+25-11-17 14:04:12 [INFO] root -    order_id          order_time order_delivery_date   order_type    order_description
+0     10001 2025-10-01 10:00:00 2025-10-05 15:00:00  Electronics     Smartphone order
+1     10002 2025-10-02 09:00:00 2025-10-06 13:00:00    Furniture           Sofa order
+2     10003 2025-10-03 11:30:00 2025-10-07 14:30:00      Grocery  Weekly grocery pack
+3     10004 2025-10-04 12:15:00 2025-10-08 16:00:00    Appliance      Washing machine
+4     10005 2025-10-05 14:00:00 2025-10-09 17:30:00     Clothing       Winter jackets
+5     10007 2025-10-12 10:20:00 2025-10-22 10:20:00   Electronic          Smart Watch
+25-11-17 14:04:12 [INFO] werkzeug - 127.0.0.1 - - [17/Nov/2025 14:04:12] "[35m[1mPOST /api/psg_to_sql HTTP/1.1[0m" 500 -
+25-11-17 14:05:52 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-17 14:05:52 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-17 14:05:52 [INFO] werkzeug -  * Restarting with stat
+25-11-17 14:05:53 [WARNING] werkzeug -  * Debugger is active!
+25-11-17 14:05:53 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-17 14:06:03 [DEBUG] MyApp - Connected to DEV database.
+25-11-17 14:06:03 [INFO] root - <connection object at 0x0000026765A989D0; dsn: 'user=postgres password=xxx dbname=Dev_db host=localhost port=5432', closed: 0>
+25-11-17 14:06:03 [DEBUG] MyApp - Connected to SQL database.
+25-11-17 14:06:03 [INFO] root - <pymysql.connections.Connection object at 0x0000026765B91630>
+25-11-17 14:06:03 [INFO] root -    order_id          order_time order_delivery_date   order_type    order_description
+0     10001 2025-10-01 10:00:00 2025-10-05 15:00:00  Electronics     Smartphone order
+1     10002 2025-10-02 09:00:00 2025-10-06 13:00:00    Furniture           Sofa order
+2     10003 2025-10-03 11:30:00 2025-10-07 14:30:00      Grocery  Weekly grocery pack
+3     10004 2025-10-04 12:15:00 2025-10-08 16:00:00    Appliance      Washing machine
+4     10005 2025-10-05 14:00:00 2025-10-09 17:30:00     Clothing       Winter jackets
+5     10007 2025-10-12 10:20:00 2025-10-22 10:20:00   Electronic          Smart Watch
+25-11-17 14:06:03 [INFO] root - Data is successfully inserted into target database :order_headers
+25-11-17 14:06:03 [INFO] werkzeug - 127.0.0.1 - - [17/Nov/2025 14:06:03] "POST /api/psg_to_sql HTTP/1.1" 200 -
