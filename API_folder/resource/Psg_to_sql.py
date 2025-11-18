@@ -13,10 +13,10 @@ from common.config import  get_connection, sql_get_connection, close_db
 class psgr_to_sql(Resource):
     def post(self):
         data = request.get_json()
-        from_db = data.get("FROM_DB")
-        to_db = data.get("TO_DB")
+        from_db = data.get("FROM_DB") # Dev
+        to_db = data.get("TO_DB")   # SQL # Cache_run - True ( psg) / False/empty - SQL
         tables = data.get("TABLES")
-
+        # UAT SQL/ UAT DEV
         from_conn = get_connection(from_db)
         logging.info(from_conn)
         if to_db == "SQL":
@@ -35,15 +35,14 @@ class psgr_to_sql(Resource):
 
             columns = list(df.columns)
             col_str = "(" + ",".join([f"`{c}`" for c in columns]) + ")"
-
             placeholders = ",".join(["%s"] * len(columns))
-
+            # "%s" is a placeholder not a datatype 
             insert_sql = f"INSERT INTO `{table}` {col_str} VALUES ({placeholders})"
-
             cursor = to_conn.cursor()
 
             for _, row in df.iterrows():
                 cursor.execute(insert_sql, tuple(row.values))
+            
 
             to_conn.commit()
             close_db(to_conn,cursor)

@@ -1,0 +1,354 @@
+25-11-18 16:50:56 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 16:50:56 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 16:50:56 [INFO] werkzeug -  * Restarting with stat
+25-11-18 16:50:57 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 16:50:57 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 16:51:33 [DEBUG] MyApp - Error while connecting to None database: 'NoneType' object has no attribute 'upper'
+25-11-18 16:51:33 [INFO] root - connection established
+25-11-18 16:51:33 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 16:51:33] "[35m[1mPOST /api/data HTTP/1.1[0m" 500 -
+25-11-18 16:52:24 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 16:52:24 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 16:52:24 [INFO] werkzeug -  * Restarting with stat
+25-11-18 16:52:24 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 16:52:24 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 16:52:27 [DEBUG] MyApp - Error while connecting to None database: 'NoneType' object has no attribute 'upper'
+25-11-18 16:52:27 [INFO] root - connection established
+25-11-18 16:52:27 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 16:52:27] "[35m[1mPOST /api/data HTTP/1.1[0m" 500 -
+25-11-18 16:53:59 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 16:53:59 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 16:53:59 [INFO] werkzeug -  * Restarting with stat
+25-11-18 16:54:00 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 16:54:00 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 16:54:04 [DEBUG] MyApp - Error while connecting to None database: 'NoneType' object has no attribute 'upper'
+25-11-18 16:54:04 [INFO] root - None
+25-11-18 16:54:04 [INFO] root - connection failed to establish !!!
+25-11-18 16:54:04 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 16:54:04] "[35m[1mPOST /api/data HTTP/1.1[0m" 500 -
+25-11-18 16:54:50 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 16:54:50 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 16:54:50 [INFO] werkzeug -  * Restarting with stat
+25-11-18 16:54:51 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 16:54:51 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 16:54:54 [DEBUG] MyApp - Error while connecting to PSG_DEV database: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+25-11-18 16:54:54 [INFO] root - None
+25-11-18 16:54:54 [INFO] root - connection failed to establish !!!
+25-11-18 16:54:54 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 16:54:54] "[35m[1mPOST /api/data HTTP/1.1[0m" 500 -
+25-11-18 16:56:59 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 16:56:59 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 16:56:59 [INFO] werkzeug -  * Restarting with stat
+25-11-18 16:57:00 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 16:57:00 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 16:57:03 [DEBUG] MyApp - Error while connecting to PSG_DEV database: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+25-11-18 16:57:03 [INFO] root - None
+25-11-18 16:57:03 [INFO] root - connection failed to establish !!!
+25-11-18 16:57:03 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 16:57:03] "[35m[1mPOST /api/data HTTP/1.1[0m" 500 -
+25-11-18 17:00:11 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 17:00:11 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 17:00:11 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:00:12 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:00:12 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:00:14 [INFO] root - PSG_DEV
+25-11-18 17:00:14 [INFO] root - sales_headers
+25-11-18 17:00:14 [DEBUG] MyApp - Error while connecting to PSG_DEV database: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+25-11-18 17:00:14 [INFO] root - None
+25-11-18 17:00:14 [INFO] root - connection failed to establish !!!
+25-11-18 17:00:14 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:00:14] "[35m[1mPOST /api/data HTTP/1.1[0m" 500 -
+25-11-18 17:01:24 [INFO] werkzeug -  * Detected change in 'd:\\Dev_tasks\\Flask_API\\API_folder\\common\\config.py', reloading
+25-11-18 17:01:24 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:01:25 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:01:25 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:01:32 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 17:01:32 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 17:01:32 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:01:33 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:01:33 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:01:36 [INFO] root - PSG_DEV
+25-11-18 17:01:36 [INFO] root - sales_headers
+25-11-18 17:01:36 [DEBUG] MyApp - Error while connecting to PSG_DEV database: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+25-11-18 17:01:36 [INFO] root - None
+25-11-18 17:01:36 [INFO] root - connection failed to establish !!!
+25-11-18 17:01:36 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:01:36] "[35m[1mPOST /api/data HTTP/1.1[0m" 500 -
+25-11-18 17:02:12 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 17:02:12 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 17:02:12 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:02:14 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:02:14 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:02:16 [INFO] root - PSG_DEV
+25-11-18 17:02:16 [INFO] root - sales_headers
+25-11-18 17:02:16 [DEBUG] MyApp - Error while connecting to PSG_DEV database: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+25-11-18 17:02:16 [INFO] root - None
+25-11-18 17:02:16 [INFO] root - connection failed to establish !!!
+25-11-18 17:02:16 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:02:16] "[35m[1mPOST /api/data HTTP/1.1[0m" 500 -
+25-11-18 17:07:50 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 17:07:50 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 17:07:50 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:07:51 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:07:51 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:07:56 [INFO] root - PSG_DEV
+25-11-18 17:07:56 [INFO] root - sales_headers
+25-11-18 17:07:56 [DEBUG] MyApp - Connected to PSG_DEV database.
+25-11-18 17:07:56 [INFO] root - <connection object at 0x000001B87FA78BF0; dsn: 'user=postgres password=xxx dbname=Dev_db host=localhost port=5432', closed: 0>
+25-11-18 17:07:56 [INFO] root - connection established
+25-11-18 17:07:56 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:07:56] "POST /api/data HTTP/1.1" 200 -
+25-11-18 17:13:37 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 17:13:37 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 17:13:37 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:13:38 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:13:38 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:13:39 [INFO] root - None
+25-11-18 17:13:39 [INFO] root - sales_headers
+25-11-18 17:13:39 [DEBUG] MyApp - Error while connecting to None database: 'NoneType' object has no attribute 'upper'
+25-11-18 17:13:39 [INFO] root - None
+25-11-18 17:13:39 [INFO] root - connection failed to establish !!!
+25-11-18 17:13:39 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:13:39] "[35m[1mPOST /api/data HTTP/1.1[0m" 500 -
+25-11-18 17:14:16 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 17:14:16 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 17:14:16 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:14:17 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:14:17 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:14:18 [INFO] root - PSG_DEV
+25-11-18 17:14:18 [INFO] root - 
+25-11-18 17:14:18 [INFO] root - sales_headers
+25-11-18 17:14:18 [DEBUG] MyApp - Connected to PSG_DEV database.
+25-11-18 17:14:18 [INFO] root - <connection object at 0x000001132DED8BF0; dsn: 'user=postgres password=xxx dbname=Dev_db host=localhost port=5432', closed: 0>
+25-11-18 17:14:18 [INFO] root - connection established
+25-11-18 17:14:18 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:14:18] "[35m[1mPOST /api/data HTTP/1.1[0m" 500 -
+25-11-18 17:14:41 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 17:14:41 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 17:14:41 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:14:43 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:14:43 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:14:43 [INFO] root - PSG_DEV
+25-11-18 17:14:43 [INFO] root - 
+25-11-18 17:14:43 [INFO] root - sales_headers
+25-11-18 17:14:44 [DEBUG] MyApp - Connected to PSG_DEV database.
+25-11-18 17:14:44 [INFO] root - <connection object at 0x0000021260808BF0; dsn: 'user=postgres password=xxx dbname=Dev_db host=localhost port=5432', closed: 0>
+25-11-18 17:14:44 [INFO] root - connection established
+25-11-18 17:14:44 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:14:44] "POST /api/data HTTP/1.1" 200 -
+25-11-18 17:16:15 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 17:16:15 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 17:16:15 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:16:16 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:16:16 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:16:18 [INFO] root - PSG_DEV
+25-11-18 17:16:18 [INFO] root - 
+25-11-18 17:16:18 [INFO] root - sales_headers
+25-11-18 17:16:18 [ERROR] root - All parameters should be provided
+25-11-18 17:16:18 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:16:18] "POST /api/data HTTP/1.1" 200 -
+25-11-18 17:16:55 [INFO] root - PSG_DEV
+25-11-18 17:16:55 [INFO] root - PSG_PROD
+25-11-18 17:16:55 [INFO] root - sales_headers
+25-11-18 17:16:55 [ERROR] root - Length of provided columns and values are not equal
+25-11-18 17:16:56 [DEBUG] MyApp - Connected to PSG_DEV database.
+25-11-18 17:16:56 [INFO] root - <connection object at 0x0000012E946A8BF0; dsn: 'user=postgres password=xxx dbname=Dev_db host=localhost port=5432', closed: 0>
+25-11-18 17:16:56 [INFO] root - connection established
+25-11-18 17:16:56 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:16:56] "POST /api/data HTTP/1.1" 200 -
+25-11-18 17:17:44 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 17:17:44 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 17:17:44 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:17:45 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:17:45 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:17:47 [INFO] root - PSG_DEV
+25-11-18 17:17:47 [INFO] root - PSG_PROD
+25-11-18 17:17:47 [INFO] root - sales_headers
+25-11-18 17:17:47 [ERROR] root - Length of provided columns and values are not equal
+25-11-18 17:17:47 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:17:47] "POST /api/data HTTP/1.1" 200 -
+25-11-18 17:19:56 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 17:19:56 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 17:19:56 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:19:57 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:19:57 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:19:59 [INFO] root - PSG_DEV
+25-11-18 17:19:59 [INFO] root - PSG_PROD
+25-11-18 17:19:59 [INFO] root - sales_headers
+25-11-18 17:19:59 [DEBUG] MyApp - Connected to PSG_DEV database.
+25-11-18 17:19:59 [INFO] root - <connection object at 0x0000028A5DF18BF0; dsn: 'user=postgres password=xxx dbname=Dev_db host=localhost port=5432', closed: 0>
+25-11-18 17:19:59 [INFO] root - connection established
+25-11-18 17:19:59 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:19:59] "[35m[1mPOST /api/data HTTP/1.1[0m" 500 -
+25-11-18 17:21:43 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 17:21:43 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 17:21:43 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:21:44 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:21:44 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:21:45 [INFO] root - PSG_DEV
+25-11-18 17:21:45 [INFO] root - PSG_PROD
+25-11-18 17:21:45 [INFO] root - sales_headers
+25-11-18 17:21:45 [DEBUG] MyApp - Connected to PSG_DEV database.
+25-11-18 17:21:46 [DEBUG] MyApp - Connected to PSG_PROD database.
+25-11-18 17:21:46 [INFO] root - <connection object at 0x00000210546B8BF0; dsn: 'user=postgres password=xxx dbname=Dev_db host=localhost port=5432', closed: 0>
+25-11-18 17:21:46 [INFO] root - <connection object at 0x00000210546B8E10; dsn: 'user=postgres password=xxx dbname=prod_db host=localhost port=5432', closed: 0>
+25-11-18 17:21:46 [INFO] root - connection established
+25-11-18 17:21:46 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:21:46] "POST /api/data HTTP/1.1" 200 -
+25-11-18 17:22:35 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 17:22:35 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 17:22:35 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:22:36 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:22:36 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:22:38 [INFO] root - PSG_PROD
+25-11-18 17:22:38 [INFO] root - PSG_DEV
+25-11-18 17:22:38 [INFO] root - sales_headers
+25-11-18 17:22:38 [DEBUG] MyApp - Connected to PSG_PROD database.
+25-11-18 17:22:38 [DEBUG] MyApp - Connected to PSG_DEV database.
+25-11-18 17:22:38 [INFO] root - <connection object at 0x000001E1CC218BF0; dsn: 'user=postgres password=xxx dbname=prod_db host=localhost port=5432', closed: 0>
+25-11-18 17:22:38 [INFO] root - <connection object at 0x000001E1CC218E10; dsn: 'user=postgres password=xxx dbname=Dev_db host=localhost port=5432', closed: 0>
+25-11-18 17:22:38 [INFO] root - connection established
+25-11-18 17:22:38 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:22:38] "POST /api/data HTTP/1.1" 200 -
+25-11-18 17:42:01 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 17:42:01 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 17:42:01 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:42:02 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:42:02 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:42:17 [DEBUG] MyApp - Connected to PSG_PROD database.
+25-11-18 17:42:17 [DEBUG] MyApp - Connected to PSG_DEV database.
+25-11-18 17:42:17 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:42:17] "[35m[1mPOST /api/data HTTP/1.1[0m" 500 -
+25-11-18 17:43:33 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 17:43:33 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 17:43:33 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:43:35 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:43:35 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:43:36 [DEBUG] MyApp - Connected to PSG_PROD database.
+25-11-18 17:43:36 [DEBUG] MyApp - Connected to PSG_DEV database.
+25-11-18 17:43:36 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:43:36] "[35m[1mPOST /api/data HTTP/1.1[0m" 500 -
+25-11-18 17:44:14 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 17:44:14 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 17:44:14 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:44:15 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:44:15 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:44:17 [DEBUG] MyApp - Connected to PSG_PROD database.
+25-11-18 17:44:17 [DEBUG] MyApp - Connected to PSG_DEV database.
+25-11-18 17:44:17 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:44:17] "[35m[1mPOST /api/data HTTP/1.1[0m" 500 -
+25-11-18 17:46:10 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 17:46:10 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 17:46:10 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:46:12 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:46:12 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:46:14 [DEBUG] MyApp - Connected to PSG_PROD database.
+25-11-18 17:46:14 [DEBUG] MyApp - Connected to PSG_DEV database.
+25-11-18 17:46:14 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:46:14] "[35m[1mPOST /api/data HTTP/1.1[0m" 500 -
+25-11-18 17:49:45 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 17:49:45 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 17:49:45 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:49:46 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:49:46 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:49:47 [INFO] root - PSG_PROD
+25-11-18 17:49:47 [INFO] root - PSG_DEV
+25-11-18 17:49:47 [INFO] root - sales_headers
+25-11-18 17:49:47 [DEBUG] MyApp - Connected to PSG_PROD database.
+25-11-18 17:49:47 [DEBUG] MyApp - Connected to PSG_DEV database.
+25-11-18 17:49:47 [INFO] root - <connection object at 0x000001B7C8C48BF0; dsn: 'user=postgres password=xxx dbname=prod_db host=localhost port=5432', closed: 0>
+25-11-18 17:49:47 [INFO] root - <connection object at 0x000001B7C8C48E10; dsn: 'user=postgres password=xxx dbname=Dev_db host=localhost port=5432', closed: 0>
+25-11-18 17:49:47 [INFO] root - connection established
+25-11-18 17:49:47 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:49:47] "POST /api/data HTTP/1.1" 200 -
+25-11-18 17:50:22 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 17:50:22 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 17:50:22 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:50:23 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:50:23 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:50:27 [INFO] root - PSG_PROD
+25-11-18 17:50:27 [INFO] root - PSG_DEV
+25-11-18 17:50:27 [INFO] root - sales_headers
+25-11-18 17:50:27 [DEBUG] MyApp - Connected to PSG_PROD database.
+25-11-18 17:50:27 [DEBUG] MyApp - Connected to PSG_DEV database.
+25-11-18 17:50:27 [INFO] root - <connection object at 0x000002DC093B8BF0; dsn: 'user=postgres password=xxx dbname=prod_db host=localhost port=5432', closed: 0>
+25-11-18 17:50:27 [INFO] root - <connection object at 0x000002DC093B8E10; dsn: 'user=postgres password=xxx dbname=Dev_db host=localhost port=5432', closed: 0>
+25-11-18 17:50:27 [INFO] root - connection established
+25-11-18 17:50:27 [INFO] root - Empty DataFrame
+Columns: [sales_id, product_id, payment_status]
+Index: []
+25-11-18 17:50:27 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:50:27] "POST /api/data HTTP/1.1" 200 -
+25-11-18 17:51:06 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 17:51:06 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 17:51:06 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:51:07 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:51:07 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:51:09 [INFO] root - PSG_PROD
+25-11-18 17:51:09 [INFO] root - PSG_DEV
+25-11-18 17:51:09 [INFO] root - sales_headers
+25-11-18 17:51:09 [DEBUG] MyApp - Connected to PSG_PROD database.
+25-11-18 17:51:09 [DEBUG] MyApp - Connected to PSG_DEV database.
+25-11-18 17:51:09 [INFO] root - <connection object at 0x000001689F188BF0; dsn: 'user=postgres password=xxx dbname=prod_db host=localhost port=5432', closed: 0>
+25-11-18 17:51:09 [INFO] root - <connection object at 0x000001689F188E10; dsn: 'user=postgres password=xxx dbname=Dev_db host=localhost port=5432', closed: 0>
+25-11-18 17:51:09 [INFO] root - connection established
+25-11-18 17:51:09 [INFO] root - Empty DataFrame
+Columns: [sales_id, product_id, payment_status]
+Index: []
+25-11-18 17:51:09 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:51:09] "POST /api/data HTTP/1.1" 200 -
+25-11-18 17:51:24 [INFO] root - PSG_DEV
+25-11-18 17:51:24 [INFO] root - PSG_PROD
+25-11-18 17:51:24 [INFO] root - sales_headers
+25-11-18 17:51:24 [DEBUG] MyApp - Connected to PSG_DEV database.
+25-11-18 17:51:24 [DEBUG] MyApp - Connected to PSG_PROD database.
+25-11-18 17:51:24 [INFO] root - <connection object at 0x000001689F188E10; dsn: 'user=postgres password=xxx dbname=Dev_db host=localhost port=5432', closed: 0>
+25-11-18 17:51:24 [INFO] root - <connection object at 0x000001689F188BF0; dsn: 'user=postgres password=xxx dbname=prod_db host=localhost port=5432', closed: 0>
+25-11-18 17:51:24 [INFO] root - connection established
+25-11-18 17:51:24 [INFO] root -    sales_id  product_id payment_status
+0      2201         701      Sucessful
+25-11-18 17:51:24 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:51:24] "POST /api/data HTTP/1.1" 200 -
+25-11-18 17:52:45 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 17:52:45 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 17:52:45 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:52:47 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:52:47 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:53:58 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 17:53:58 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 17:53:58 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:53:59 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:53:59 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:54:03 [INFO] root - PSG_DEV
+25-11-18 17:54:03 [INFO] root - PSG_PROD
+25-11-18 17:54:03 [INFO] root - sales_headers
+25-11-18 17:54:03 [DEBUG] MyApp - Connected to PSG_DEV database.
+25-11-18 17:54:03 [DEBUG] MyApp - Connected to PSG_PROD database.
+25-11-18 17:54:03 [INFO] root - <connection object at 0x000001F20CAC8BF0; dsn: 'user=postgres password=xxx dbname=Dev_db host=localhost port=5432', closed: 0>
+25-11-18 17:54:03 [INFO] root - <connection object at 0x000001F20CAC8E10; dsn: 'user=postgres password=xxx dbname=prod_db host=localhost port=5432', closed: 0>
+25-11-18 17:54:03 [INFO] root - connection established
+25-11-18 17:54:03 [INFO] root -    sales_id  product_id payment_status
+0      2201         701      Sucessful
+25-11-18 17:54:03 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:54:03] "POST /api/data HTTP/1.1" 200 -
+25-11-18 17:55:43 [INFO] werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:1509
+25-11-18 17:55:43 [INFO] werkzeug - [33mPress CTRL+C to quit[0m
+25-11-18 17:55:43 [INFO] werkzeug -  * Restarting with stat
+25-11-18 17:55:45 [WARNING] werkzeug -  * Debugger is active!
+25-11-18 17:55:45 [INFO] werkzeug -  * Debugger PIN: 263-796-448
+25-11-18 17:55:50 [INFO] root - PSG_DEV
+25-11-18 17:55:50 [INFO] root - PSG_PROD
+25-11-18 17:55:50 [INFO] root - sales_headers
+25-11-18 17:55:50 [DEBUG] MyApp - Connected to PSG_DEV database.
+25-11-18 17:55:50 [DEBUG] MyApp - Connected to PSG_PROD database.
+25-11-18 17:55:50 [INFO] root - <connection object at 0x00000225093F8BF0; dsn: 'user=postgres password=xxx dbname=Dev_db host=localhost port=5432', closed: 0>
+25-11-18 17:55:50 [INFO] root - <connection object at 0x00000225093F8E10; dsn: 'user=postgres password=xxx dbname=prod_db host=localhost port=5432', closed: 0>
+25-11-18 17:55:50 [INFO] root - connection established
+25-11-18 17:55:50 [INFO] root -    sales_id
+0      2201
+25-11-18 17:55:50 [INFO] werkzeug - 127.0.0.1 - - [18/Nov/2025 17:55:50] "POST /api/data HTTP/1.1" 200 -
