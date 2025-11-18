@@ -57,3 +57,6 @@ class data_insertion(Resource):
         to_db_conn.commit()
         msg = f"Values are successfully inserted into target db_table {to_db}, {table}"
         return jsonify(msg)
+
+
+# Dynamic API for bulk data insertion 
