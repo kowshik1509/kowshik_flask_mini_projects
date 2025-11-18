@@ -20,5 +20,6 @@ api.add_resource(logout,'/api/logout')
 api.add_resource(psgr_to_sql,'/api/psg_to_sql')
 api.add_resource(datacomp,'/api/datacomparision')
 api.add_resource(data_insertion,'/api/data')
+
 if __name__ == "__main__":
     app.run(debug=True, port=1509)
