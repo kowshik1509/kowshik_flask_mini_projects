@@ -29,21 +29,27 @@ class data_insertion(Resource):
         #     logging.error("Length of provided columns and values are not equal")
         #     msg = "Length of provided columns and values are not equal"
         #     return jsonify(msg)
+
         from_db_conn = get_connection(from_db)
         to_db_conn = get_connection(to_db)
         logging.info(from_db_conn)
         logging.info(to_db_conn)
+        # Connection Check
         if from_db_conn and to_db_conn :
             logging.info("connection established")
         else:
             logging.info("connection failed to establish !!!")
+        
+        # Columns check
         if columns:
             col_sql = ", ".join(columns)
             data_read_query = f"SELECT {col_sql} FROM {table};"
         else:
             data_read_query = f"SELECT * FROM {table};"
+
         df = pd.read_sql(data_read_query, from_db_conn)
         logging.info(df)
+        # Retrived data check
         if df.empty:
             msg = "No data is found in the database"
             return jsonify(msg)
@@ -55,6 +61,10 @@ class data_insertion(Resource):
         tgt_cursor = to_db_conn.cursor()
         tgt_cursor.executemany(insert_query, df.to_records(index=False).tolist())
         to_db_conn.commit()
+        close_db(to_db_conn,tgt_cursor)
+        logging.info("to_db_conn closed")
+        close_db(from_db_conn)
+        logging.info("to_db_conn closed")
         msg = f"Values are successfully inserted into target db_table {to_db}, {table}"
         return jsonify(msg)
 
