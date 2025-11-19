@@ -15,7 +15,7 @@ logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(name)s - %(message)s",
     datefmt= '%y-%m-%d %H:%M:%S',
     handlers=[
-        logging.FileHandler(f"API_folder/common/app_{formatted_time}.log", mode='a'),  # Log to file (append mode)
+        logging.FileHandler(f"API_folder/logs/app_{formatted_time}.log", mode='a'),  # Log to file (append mode)
         logging.StreamHandler()  # Log to console
     ]
 )
