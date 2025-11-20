@@ -1,4 +1,4 @@
-from common.config import get_connection
+from common.config import get_connection, loggers
 
 from datetime import datetime, date
 from decimal import Decimal
