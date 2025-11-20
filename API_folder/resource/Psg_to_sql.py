@@ -7,7 +7,7 @@ import numpy as np
 from flask import jsonify
 import logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s", datefmt='%Y-%m-%d %H:%M:%S')
-from common.config import  get_connection, sql_get_connection, close_db
+from common.config import  get_connection, sql_get_connection, close_db, logger
 
 
 class psgr_to_sql(Resource):

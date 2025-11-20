@@ -10,7 +10,7 @@ import datetime
 from datetime import datetime
 from resource.utils import table_exists, METHODS
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s", datefmt='%Y-%m-%d %H:%M:%S')
-from common.config import connectionpool, get_connection
+from common.config import connectionpool, get_connection, logger
 from common import config
 
 class datafetch(Resource):
